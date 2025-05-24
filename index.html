@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
@@ -14,13 +15,13 @@
             <h1 class="product">Product</h1>
             <nav class="navigate">
                 <ul>
-                    <li><a href="./index.html">Product</a></li>
-                    <li><a href="./pricing.html">Pricing</a></li>
-                    <li><a href="./customers.html">Customers</a></li>
-                    <li><a href="./resorces.html">Resources</a></li>
+                    <li class="navigate-item"><a href="./index.html">Product</a></li>
+                    <li class="navigate-item"><a href="./pricing.html">Pricing</a></li>
+                    <li class="navigate-item"><a href="./customers.html">Customers</a></li>
+                    <li class="navigate-item"><a href="./resorces.html">Resources</a></li> class="navigate-item"
+                    <li><button type="button" class="sign-in">Sign In</button></li>
+                    <li><button type="button" class="sign-up">Sign Up</button></li>
                 </ul>
-                    <button type="button" class="sign-in">Sign In</button>
-                    <button type="button" class="sign-up">Sign Up</button>
             </nav>
         </div>
     </header>
@@ -60,43 +61,50 @@
                 </li>
             </ul>
         </div>
-        <button type="button">SIGN UP NOW</button>
+        <button type="button" class="sign-up-now">SIGN UP NOW</button>
 
     </section>
    <!--Manangmant-->
-    <section>
-        <h2>Effortless Validation for Management</h2>
-        <p>
-            The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall
-        personality of the person.
-         </p>
-        <h2>Accessory makers</h2>
-        <p>
-            While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
-        </p>
-        <h2>Alterationists</h2>
-        <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
-        <img src="images/management-img.jpg"
-        alt="Management"
-        width="500">
+    <section class="manangmant">
+        <div class="container">
+            <h2 class="manangmant-validation">Effortless Validation for Management</h2>
+            <p class="manangmant-individual">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall
+            personality of the person.</p>
+            <ul class="management-blocks">
+                <li class="manangmant-list">
+                    <h3 class="manangmant-title">Accessory makers</h3>
+                    <p class="manangmant-list"> While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                </li>
+                <li class="manangmant-list">
+                    <h3 class="manangmant-title">Alterationists</h3>
+                    <p class="manangmant-list">If you are looking for a new way to promote your business that won’t cost you more money,</p>
+                </li>
+                <img src="images/management-img.jpg"
+                alt="Management"
+                width="500">
+            </ul>
+        </div>
     </section>
-<!--Support-->
-    <section>
-        <h2>Easier decision making for Customer Support</h2>
-        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall
-        personality of the person.</p>
-        <ul>
-            <li><a>Never worry about overpaying for your energy again.</a></li>
-            <li><a>We will only switch you to energy companies that we trust and will treat you right</a></li>
-            <li><a>We track the markets daily and know where the savings are.</a></li>
-        </ul>
-        <img 
-        src="images/support-img.png"
-        alt="Support"
-        width="540">
+ <!--Support-->
+    <section class="support">
+        <div class="container">
+            <h2 class="support-easier">Easier decision making for Customer Support</h2>
+            <p class="myspace-support">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall
+            personality of the person.</p>
+            <ul class="support-item">
+                <li class="support-list"><a>Never worry about overpaying for your energy again.</a></li>
+                <li class="support-list"><a>We will only switch you to energy companies that we trust and will treat you right</a></li>
+                <li class="support-list"><a>We track the markets daily and know where the savings are.</a></li>
+            
+                <img
+                src="images/support-img.png"
+                alt="Support"
+                width="540">
+            </ul>
+        </div>
     </section>
 <!--Optimasation-->
-    <section>
+    <section class="collaborative">
         <h2>Optimisation for Collaborative</h2>
         <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double
         standard when it comes to their behavior.</p>
