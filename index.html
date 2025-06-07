@@ -7,36 +7,46 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png"
-         alt="logo"
-         width="40">
-        <div class="container">
-            <h1 class="product">Product</h1>
-            <nav class="navigate">
-                <ul>
-                    <li class="navigate-item"><a href="./index.html">Product</a></li>
-                    <li class="navigate-item"><a href="./pricing.html">Pricing</a></li>
-                    <li class="navigate-item"><a href="./customers.html">Customers</a></li>
-                    <li class="navigate-item"><a href="./resorces.html">Resources</a></li> class="navigate-item"
-                    <li><button type="button" class="sign-in">Sign In</button></li>
-                    <li><button type="button" class="sign-up">Sign Up</button></li>
+    <header class="header">
+        <div class="container header-container">
+            <a href="" class="logo">P <span class="logo-text">Product</span></a>
+    
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="" class="nav-link">Product</a></li>
+                    <li><a href="" class="nav-link">Pricing</a></li>
+                    <li><a href="" class="nav-link">Customers</a></li>
+                    <li><a href="" class="nav-link">Resources</a></li>
                 </ul>
             </nav>
+    
+            <div class="header-buttons">
+                <a href="#" class="btn btn-outline">Sign in</a>
+                <a href="#" class="btn btn-filled">Sign up</a>
+            </div>
         </div>
-    </header>
-   <!--section-1-->
-    <section class="page-start">
-      <div class="container">
-          <h2 class="page-title">Work at the speed of thought</h2>
-               <p class="page-list">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-               <button type="button">Get started</button>
-               <a href="https://www.youtube.com/@GoIT" target="_blank" class="video">Watch the Video</a>
-               <img src="images/hero-img.jpg"
-               alt="hero-img"
-               width="555">
-      </div>
-    </section>
+        </header>
+    <!--section-1-->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-text-box">
+                <h1 class="hero-title">Work at the speed of thought</h1>
+                <p class="hero-description">
+                    Tools, tutorials, design and innovation experts, all in one place!
+                    The most intuitive way to imagine your next user experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="" class="btn btn-primary">Get started</a>
+                    <a href="" class="btn btn-secondary">
+                        Watch the Video
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-box">
+                <img src="./images/hero-img.jpg" alt="Illustration" class="hero-image">
+            </div>
+        </div>
+        </section>
 
     <!--section-2-->
     <section>
@@ -64,7 +74,7 @@
         <button type="button" class="sign-up-now">SIGN UP NOW</button>
 
     </section>
-   <!--Manangmant-->
+    <!--Manangmant-->
     <section class="manangmant">
         <div class="container">
             <h2 class="manangmant-validation">Effortless Validation for Management</h2>
@@ -79,13 +89,13 @@
                     <h3 class="manangmant-title">Alterationists</h3>
                     <p class="manangmant-list">If you are looking for a new way to promote your business that won’t cost you more money,</p>
                 </li>
-                <img src="images/management-img.jpg"
+                <img src="./images/management-img.jpg"
                 alt="Management"
                 width="500">
             </ul>
         </div>
     </section>
- <!--Support-->
+    <!--Support-->
     <section class="support">
         <div class="container">
             <h2 class="support-easier">Easier decision making for Customer Support</h2>
@@ -97,7 +107,7 @@
                 <li class="support-list"><a>We track the markets daily and know where the savings are.</a></li>
             
                 <img
-                src="images/support-img.png"
+                src="./images/support-img.jpg"
                 alt="Support"
                 width="540">
             </ul>
